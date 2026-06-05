@@ -1,1 +1,1 @@
-# NCDTC (Netease Cloud Desktop Top Controller)
+# MDC (Music Desktop Controller)
