@@ -1,15 +1,16 @@
 # MDC
 
-MDC（Music Desktop Controller）是一个基于 WinForms 和 Windows SMTC（System Media Transport Controls）的网易云音乐桌面控制器。它提供一个轻量、置顶、美观的小窗口，用来快速查看当前播放信息并控制播放。
+MDC（Music Desktop Controller）是一个基于 WinForms 和 Windows SMTC（System Media Transport Controls）的音乐桌面控制器。它提供一个轻量、置顶、美观的小窗口，用来快速查看当前播放信息并控制播放。
 
 ## 功能
 
-- 通过 Windows SMTC 获取网易云音乐的播放状态、歌曲名、歌手、专辑封面和进度信息。
+- 通过 Windows SMTC 获取音乐的播放状态、歌曲名、歌手、专辑封面和进度信息。
 - 支持播放/暂停、上一首、下一首控制。
 - 窗口始终置顶，适合放在桌面角落当迷你播放器使用。
 - 支持黑色、白色背景切换，也可以跟随系统主题。
 - 显示歌曲进度、已播放时间和总时长。
 - 支持点击或拖动进度条尝试跳转播放位置。
+- 支持多种音乐播放器如：QQ音乐，网易云音乐，浏览器播放声音……
 
 ## 说明
 
@@ -19,7 +20,8 @@ MDC（Music Desktop Controller）是一个基于 WinForms 和 Windows SMTC（Sys
 
 - Windows 10 1809 或更高版本
 - .NET 8 Desktop Runtime 或 .NET 8 SDK
-- 已安装并正在播放的网易云音乐客户端
+- 已安装并正在播放的音乐客户端
+- 音乐客户端要打开SMTC功能
 
 ## 构建和运行
 
