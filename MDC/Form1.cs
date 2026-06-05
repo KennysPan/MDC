@@ -116,7 +116,7 @@ namespace MDC
                 AutoSize = false,
                 Dock = DockStyle.Left,
                 Width = 210,
-                Text = "网易云 SMTC 控制器",
+                Text = "音乐桌面控制器",
                 Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Bold),
                 TextAlign = ContentAlignment.MiddleLeft
             };
@@ -180,7 +180,7 @@ namespace MDC
                 Height = 20,
                 Dock = DockStyle.Top,
                 Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Bold),
-                Text = "等待网易云音乐",
+                Text = "等待音乐播放",
                 TextAlign = ContentAlignment.MiddleLeft,
                 AutoEllipsis = true
             };
