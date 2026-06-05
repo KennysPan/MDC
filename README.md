@@ -1,1 +1,1 @@
-# NCDTC (Netease Cloud Desktop Top Control)
+# NCDTC (Netease Cloud Desktop Top Controller)
