@@ -11,8 +11,12 @@ obj/
 
 # Test and package output
 TestResults/
+dist/
 *.nupkg
 *.snupkg
+
+# Generated icon preview
+MDC/Assets/app-icon-preview.png
 
 # OS/editor noise
 Thumbs.db

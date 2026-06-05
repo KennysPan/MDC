@@ -50,6 +50,7 @@ namespace MDC
         public Form1()
         {
             InitializeComponent();
+            SetApplicationIcon();
             BuildUi();
             WireEvents();
             ApplyTheme();
@@ -60,6 +61,15 @@ namespace MDC
 
         [DllImport("user32.dll")]
         private static extern IntPtr SendMessage(IntPtr hWnd, int msg, int wParam, int lParam);
+
+        private void SetApplicationIcon()
+        {
+            var executableIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+            if (executableIcon != null)
+            {
+                Icon = executableIcon;
+            }
+        }
 
         protected override async void OnShown(EventArgs e)
         {
